@@ -34,6 +34,8 @@ while(1):
   
     # Display edges in a frame 
     cv2.imshow('Edges',edges) 
+    
+    cap.release()
   
     # Wait for Esc key to stop 
     k = cv2.waitKey(5) & 0xFF
